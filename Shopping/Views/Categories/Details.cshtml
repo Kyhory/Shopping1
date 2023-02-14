@@ -1,0 +1,14 @@
+﻿@model Shopping.Data.Entities.Category
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Detalles</h1>
+
+<flash dismissable="true" /> 
+
+<partial name="_CategoryDetails" />
+<div>
+      <a asp-action="Index" class="btn btn-outline-success"><i class="fa-solid fa-arrow-rotate-left"></i> Regresar</a>
+</div>
